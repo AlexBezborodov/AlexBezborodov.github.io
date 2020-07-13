@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+ a {
+ 	text-decoration: none;
+ }
+ li {
+ 	text-decoration-style: none;
+ }
+ main {
+ 	display:flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+ .navigation {
+ 	height: 74px;
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+ .freelancer {
+ 	width: 140px;
+ 	height: 74px;
+ 	background-color: #fa5c65;
+ 	border-radius: 0 0 10px 10px;
+ 	color: white;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: flex-end;
+}
+ .freelancer p {
+	font-size: 22px;
+ }
+ .nav{
+ 	display: flex;
+ 	align-items: center;
+ 	color: black;
+ 	
+ }
+ .nav a{
+ 	color: black;
+ 	
+ }
+  .nav ul li{
+ 	display: inline-block;
+ 	margin-left: 18px;
+}
+header {
+	background-image: url(../Img/background_man.png) ;
+	background-size: 100% auto;
+	background-repeat: no-repeat; 
+	height: 100%;
+	padding-bottom: 30%; 
+}
+.container-info {
+	width: 60%;
+	height: 40%;
+	margin-left: 14%;
+	margin-top: 20%; 
+	display: flex;
+	flex-direction: column;
+}
+.dot{
+	color: #fa5c65;
+}
+h1 {
+	font-size: 48px;
+	color: #314a5b;
+	letter-spacing: -1.44px;
+}
+.info{
+color: #314a5b;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 40.35px;
+}
+.button-info{
+	width: 171px;
+	height: 64px;
+	background-color: #fa5c65;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 5%;
+}
+.button-info p {
+	color: white;
+	margin-top:15%;
+}
+.blog{
+	width: 70%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+
+}
+.story{
+	width: 33%;
+	margin-top:5%;
+	margin-left: 7%;
+	
+}
+.story h2{
+	color: #465065;
+	font-family: Montserrat;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-top:25px;
+}
+.story p {
+	margin-top:25px;
+	width: 257px;
+	height: 60px;
+	color: #9aa0ab;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.story div {
+	margin-top:25px;
+	width: 74px;
+	height: 10px;
+	color: #f0454c;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.story a{
+	width: 44px;
+	height: 10px;
+	color: #f0454c;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;	
+}
+.portfolio{
+	width: 62%;	
+	display: flex;
+
+}
+.pic{
+	width: 60%;
+}
+.about-pic{
+	width: 45%
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.about-pic a {
+	margin-top:105px;
+	width: 44px;
+	height: 10px;
+	color: #f0454c;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.about-pic h2{
+	width: 233px;
+	height: 30px;
+	color: #314a5b;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+	text-transform: uppercase;
+	/* Text style for "p, ortfoli" */
+	letter-spacing: -1.2px;
+}
+.about-pic h3{
+	margin-top:35px;
+	width: 223px;
+	height: 17px;
+	color: #314a5b;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.about-pic p {
+	margin-top:25px;
+	width: 367px;
+	height: 104px;
+	color: #9aa0ab;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.ourTeam {
+	align-self: flex-start;
+	margin-left: 20%;
+
+}
+.ourTeam h2 {
+width: 179px;
+height: 24px;
+color: #314a5b;
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 53.86px;
+text-transform: uppercase;
+/* Text style for "o, ur team" */
+letter-spacing: -0.48px;
+}
+.ourTeam h3{ 
+	width: 214px;
+	height: 17px;
+	color: #9aa0ab;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+ 	margin-top:25px;
+ }
+ .team {
+ 	height: 200px;
+ 	width: 62%;
+ 	display: flex;
+ }
+ .member {
+ 	width: 33%;
+ 	display: flex;
+ 	align-items:center;
+ 	
+ 	margin-left: 1%;
+ 	 }
+ .member img {
+ 	width: 120px;
+ 	height: 120px;
+ }
+.about-member h4{
+width: 58px;
+height: 17px;
+color: #314a5b;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 53.86px;
+text-transform: uppercase;
+/* Text style for "J, oey" */
+letter-spacing: -0.33px;
+}
+.about-member h5{
+margin-top: 25px;
+width: 99px;
+height: 15px;
+color: #f0454c;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+.about-member p {
+margin-top: 15px;
+width: 134px;
+height: 32px;
+color: #9aa0ab;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+.about-member {
+	margin-left: 15px;
+}
+.more{
+	align-self: flex-end;
+	margin-right: 20%;
+	color: red;
+}
+.grey-line{
+	width: 62%;
+	border: 2px solid #e6eaed;
+	margin-top:100px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	filter: grayscale(100);
+	height: 75px;
+}
+.social-icons  {
+	margin-top: 25px;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+}
+.social-icons a img{
+	margin-left: 10px;
+}
+.all-rights-reserved{
+margin-top: 25px;
+font-size: 15px ;
+color: #e6eaed;
+font-weight: 700;
+}	
