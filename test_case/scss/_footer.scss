@@ -1,0 +1,56 @@
+@import  "mixins", "variables";
+
+footer {
+    height: 120px;
+    background: $navBgc;
+    border-top: 5px solid $navBgHover;
+}
+.footer-menu {
+    flex-wrap: wrap;
+    a {
+     padding: 5px 10px;
+     color: azure;
+     }
+     
+    }
+.footer-menu a:hover {
+    color:azure;
+    border: 1px solid $navBgHover;
+    background: $navBgHover;
+    transition: ease-in 0.5s all;
+    border-radius: 2px;
+}    
+
+
+.socials{
+    
+    a{
+        padding: 10px;
+        border: 1px solid transparent;
+        margin: 0 0.3em;
+    }  
+    img {
+        width: 12px;
+        height: 12px;
+    }  
+}
+.social-facebook:hover {
+    background-color: #3b5998;
+    transition: 0.3s;
+    border: 1px solid #3b5998;
+}
+.social-google:hover {
+    background-color: #dd4b39;
+    transition: 0.3s;
+    border: 1px solid #dd4b39;
+}
+.social-twitter:hover {
+    background-color: #55acee;
+    transition: 0.3s;
+    border: 1px solid #55acee;
+}
+.social-linked-in:hover {
+    background-color: #0976b4;
+    transition: 0.3s;
+    border: 1px solid #0976b4;
+}
